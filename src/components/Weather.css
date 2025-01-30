@@ -1,0 +1,81 @@
+/* Add your CSS styles here */
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .side-bar {
+    width: 15%;
+    background-color: #203354;
+    padding: 25px;
+    border-radius: 25px;
+  }
+  
+  .main-content {
+    width: 85%;
+    padding: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #203354;
+    border-radius: 25px;
+    padding: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  .search-bar button {
+    background-color: #f7b731;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 0 25px 25px 0;
+  }
+  
+  .current-weather {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+  }
+  
+  .weather-icon img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .today-forecast, .weekly-forecast, .air-conditions {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #203354;
+    border-radius: 20px;
+  }
+  
+  .hourly-forecast, .weekly-forecast {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .hour, .day {
+    text-align: center;
+    flex: 1;
+    margin: 0 5px;
+  }
+  
+  .hour img, .day img {
+    width: 50px;
+    height: auto;
+  }
